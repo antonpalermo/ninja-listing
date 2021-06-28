@@ -1,0 +1,46 @@
+.card {
+  position: relative;
+  max-width: 420px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.cardDetails {
+  margin: 10px;
+  background-color: #FFF;
+  padding: 30px 50px;
+  border-radius: 20px;
+}
+
+.idBadge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(0, 140, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.id {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.username {
+  font-weight: 600;
+  color: rgb(182, 182, 182);
+}
+
+.returnBtn {
+  font-weight: 600;
+  color: rgb(0, 140, 255);
+}

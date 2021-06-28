@@ -1,0 +1,30 @@
+.card {
+
+  width: 100%;
+
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(148, 148, 148, 0.2);
+  padding: 15px 30px;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.card > .id {
+  font-size: 1.5rem;
+  margin-right: 50px;
+}
+
+.card > div > .name {
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card > div > .email {
+  font-size: 1rem;
+  margin-top: 0;
+  
+}
